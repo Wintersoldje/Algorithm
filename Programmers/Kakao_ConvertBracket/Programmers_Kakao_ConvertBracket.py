@@ -19,9 +19,7 @@ def solution(p):
             for k in range(i+1, len(p)):
                 v.append(p[k])
             break
-
-    print(u)
-    print(v)
+    #u는 완성된 모형이니까 ()이면 무조건 참
     if u[0] == "(" and u[-1] == ")":
         answer += "".join(u)
         if len(v) != 0:
