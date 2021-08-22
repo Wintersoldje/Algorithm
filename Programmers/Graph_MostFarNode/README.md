@@ -43,3 +43,4 @@ def solution(n, edge):
 
 print(solution(6, [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2]]))
 ```
+https://jewin.notion.site/3c73847622fe473f9814def48e5ef0fa
